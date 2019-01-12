@@ -1,3 +1,4 @@
+/*
 import {Observable} from 'rxjs/Observable';
 import {of} from 'rxjs/observable/of';
 import {USERS} from '../components/user/user.service';
@@ -17,20 +18,6 @@ export class UserServiceMock {
   'getUsers' = jasmine.createSpy('getUsers').and.returnValue(of(USERS));
   'getUsers2' = jasmine.createSpy('getUsers').and.returnValue(of(USERS));
 
-  /*  getUsers(): Observable<Array<{}>> {
-      return of([
-        {
-          name: 'user1',
-          surname: 'usersurname1'
-        },
-        {
-          name: 'user2',
-          surname: 'usersurname2'
-        },
-        {
-          name: 'user2',
-          surname: 'usersurname2'
-        }
-      ]);
-    }*/
+
 }
+*/
